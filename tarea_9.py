@@ -10,7 +10,7 @@ def candles(a: list[int]) -> int:
     # Encontramos la altura maxima.
     altura_maxima = max(a)
     
-    # Paso 2: Contar cuántas velas tienen esa altura máxima
+    #Contar cuántas velas tienen esa altura máxima
     altura_maxima_cantidad = a.count(altura_maxima)
     
     return altura_maxima_cantidad
